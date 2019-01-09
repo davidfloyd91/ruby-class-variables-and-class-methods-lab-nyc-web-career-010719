@@ -39,12 +39,11 @@ class Song
     count_hash
   end
 
-def self.artist_count
-  self.counter(@@artists)
-end
+  def self.artist_count
+    self.counter(@@artists)
+  end
 
-def self.genre_count
-  self.counter(@@genres)
-end
-
+  def self.genre_count
+    self.counter(@@genres)
+  end
 end
